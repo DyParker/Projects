@@ -1,0 +1,63 @@
+
+/* ----------------------------------- Shelter Cards ---------------------------------------------- */
+
+.shelter-cards{
+    margin-bottom: 5%;
+  }
+  
+  .shelter-cards .col{
+    padding: 2%;
+  }
+  
+  .shelter-cards .my-info a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .shelter-cards i{
+    text-align: center;
+    font-size: 8vh;
+  }
+  
+  .shelter-cards .next-trips .buttons i{
+    text-align: center;
+    font-size: 4vh;
+  }
+  
+  .shelter-cards  h5{
+    text-align:  center;
+    font-weight: 2%;
+  }
+  
+  .shelter-cards .next-trips{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .shelter-cards .next-trips button{
+    background: none;
+    background-color: none;
+    border: none;
+    color: grey;
+    text-align: right;
+    align-self: right;
+  }
+  
+  .shelter-cards .next-trips .startchat i{
+    font-size: 3vh;
+    padding: 1%;
+    color: black;
+    border: none;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  .shelter-cards .next-trips .startchat{
+    text-decoration: none;
+  }
+  
+.push{
+    padding-bottom: 8%;
+}  

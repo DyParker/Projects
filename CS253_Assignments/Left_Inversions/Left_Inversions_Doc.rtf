@@ -1,0 +1,194 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 Times-Italic;\f2\froman\fcharset0 Times-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red43\green50\blue61;\red255\green255\blue255;\red56\green122\blue243;
+\red53\green59\blue71;\red241\green249\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c22353\c25882\c30588;\cssrgb\c100000\c100000\c100000;\cssrgb\c27451\c56863\c96471;
+\cssrgb\c27059\c29804\c34902;\cssrgb\c95686\c98039\c100000;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 We have an array\'a0
+\f1\i A
+\f0\i0 \'a0of\'a0
+\f1\i N
+\f0\i0 \'a0values to sort:\'a0
+\f1\i A[0], A[1], ..., A[N-1]
+\f0\i0 .\cb1 \
+\cb3 Consider\'a0{\field{\*\fldinst{HYPERLINK "https://www.hackerrank.com/external_redirect?to=https://en.wikipedia.org/wiki/Insertion_sort"}}{\fldrslt \cf4 \strokec4 insertion sort}}. For each value\'a0
+\f1\i A[i]
+\f0\i0 \'a0(for\'a0
+\f1\i i
+\f0\i0 =0, 1, 2, ...), we "insert" it in its correct position among the previous values. The inserted\'a0
+\f1\i A[i]
+\f0\i0 \'a0moves\'a0
+\f1\i L[i]
+\f0\i0 \'a0steps to its left, where\'a0
+\f1\i L[i]
+\f0\i0 \'a0is the number of larger values to its left. Note those larger values were also to its left in the original array.\cb1 \
+\cb3 We could compute these\'a0
+\f1\i L[i]
+\f0\i0 \'a0values as a side-effect of insertion sort. However, insertion sort can take quadratic time, which is too slow. Your goal is to compute them by a faster method.\cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b \cf2 \cb3 Input Format
+\f0\b0 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 \cb3 The input is two lines. The first line has a single integer:\'a0\'a0
+\f1\i N
+\f0\i0 \cb1 \
+\cb3 The second line has N integers:\'a0\'a0
+\f1\i A[0] A[1] ... A[N-1]
+\f0\i0 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b \cf2 \cb3 Constraints
+\f0\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa320\partightenfactor0
+\ls1\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 1 \uc0\u8804 \'a0
+\f1\i N
+\f0\i0 \'a0\uc0\u8804  100,000\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 For each\'a0
+\f1\i i
+\f0\i0 , 0 \uc0\u8804 \'a0
+\f1\i A[i]
+\f0\i0 \'a0< 10
+\fs24 9
+\fs32 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b \cf2 \cb3 Output Format
+\f0\b0 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 \cb3 Output a single line with\'a0
+\f1\i N
+\f0\i0 \'a0integers separated by spaces:\cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f1\i \cf2 \cb3 L[0] L[1] ... L[N-1]
+\f0\i0 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 \cb3 Each\'a0
+\f1\i L[j]
+\f0\i0 \'a0should equal the number of indices\'a0
+\f1\i i
+\f0\i0 \'a0such that\'a0
+\f1\i 0\uc0\u8804 i<j
+\f0\i0 \'a0and\'a0
+\f1\i A[i]>A[j]
+\f0\i0 .\cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b \cf2 \cb3 Sample Input 0
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 4\strokec5 \
+\strokec7 5 2 6 0\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Sample Output 0
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 0 1 0 3\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Explanation 0
+\f0\b0 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 \cb3 During insertion sort: the 5 does not move, the 2 moves one step left, the 6 does not move, and the 0 moves 3 steps left.\cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b \cf2 \cb3 Sample Input 1
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 5\strokec5 \
+\strokec7 2 3 3 5 6\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Sample Output 1
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 0 0 0 0 0\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Explanation 1
+\f0\b0 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 \cb3 These are non-decreasing, so nothing moves left during insertion sort.\cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b \cf2 \cb3 Sample Input 2
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 5\strokec5 \
+\strokec7 7 5 4 2 2\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Sample Output 2
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 0 1 2 3 3\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Explanation 2
+\f0\b0 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 \cb3 These are non-increasing. The second 2 does not move left past the first 2.\cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b \cf2 \cb3 Sample Input 3
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 8\strokec5 \
+\strokec7 18 1 13 15 18 0 6 14\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Sample Output 3
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 0 1 1 1 0 5 4 3\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Sample Input 4
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 10\strokec5 \
+\strokec7 0 5 10 15 20 25 30 35 40 45\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Sample Output 4
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 0 0 0 0 0 0 0 0 0 0\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Sample Input 5
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 10\strokec5 \
+\strokec7 45 40 35 30 25 20 15 10 5 0\strokec5 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f2\b\fs32 \cf2 \cb3 \strokec2 Sample Output 5
+\f0\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf5 \cb6 \strokec7 0 1 2 3 4 5 6 7 8 9\strokec5 \
+}

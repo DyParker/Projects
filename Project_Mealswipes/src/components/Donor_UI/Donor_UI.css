@@ -1,0 +1,65 @@
+/* ----------------------------------- RESTAURANT DASHBOARD ---------------------------------------------- */
+.pushit{
+    padding-bottom:4%;
+  }
+
+.restaurant-cards{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .restaurant-cards .col{
+    padding: 2%;
+  }
+  
+  .restaurant-cards i{
+    text-align: center;
+    font-size: 8vh;
+  }
+  
+  .restaurant-cards  h5{
+    text-align:  center;
+    font-weight: 2%;
+  }
+  
+  .restaurant-cards .pane a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .restaurant-cards .create-task button{
+    background-color: #284026;
+    border: none;
+    color: white;
+    font-weight:600;
+    font-size: 2.5vh;;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  
+  .restaurant-cards .upcoming-trips button{
+    background: none;
+    background-color: none;
+    border: none;
+    color: grey;
+    text-align: right;
+    align-self: right;
+  }
+
+  .restaurant-cards .chatbubbles{
+    color: gray;
+    display: flex;
+    padding: 20px;
+    size: 20px;
+    
+  }
+  
+  
+  .restaurant-cards .upcoming-trips .startchat{
+    text-decoration: none;
+    color: black;
+  }

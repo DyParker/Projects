@@ -1,0 +1,38 @@
+#section2 .row{
+    height: 30%;
+}
+  
+#section2 .row.donor {
+    padding-top: 1%;
+}
+  
+#section2 .row.shelter {
+    padding-top: 1%;
+}
+  
+#section2 .col{
+    padding: 2%;
+    text-align: center;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+  
+#section2 .row.donor .col{
+    background-color: #AACDDF;
+}
+  
+#section2 .row.volunteer .col{
+    background-color: #587F97;
+}
+  
+#section2 .row.shelter .col{
+    background-color: #AADFDB;
+}
+
+#section2 .onelink{
+    color:black;
+    text-decoration: none;
+    font-size: xx-large;
+}

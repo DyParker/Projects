@@ -1,0 +1,47 @@
+
+.navbar{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    
+    justify-content: center;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  .navbar li{
+    font-size: 3.5vh;
+    justify-content: center;
+    padding: 20px;
+    float: left;
+    
+    
+  }
+  
+  .navbar li a{
+    font-size: 3.5vh;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  .navbar-brand a{
+    font-size: 5.5vh;
+    font-weight:600;
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  .nav-link.disabled{
+    pointer-events: none;
+  }
+  
+  .nav-item{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: center;
+  }
+
+

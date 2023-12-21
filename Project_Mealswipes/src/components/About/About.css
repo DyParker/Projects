@@ -1,0 +1,35 @@
+#aboutuspic{
+    height: fit-content;
+    width: fit-content; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+.col.food-waste{
+text-align: justify;
+background-color: #5C7C64;
+padding: 4%;
+border-top-left-radius: 0.5rem;
+border-bottom-left-radius: 0.5rem;
+border-top-right-radius: 0.5rem;
+border-bottom-right-radius: 0.5rem;
+}
+
+.col.food-waste p{
+padding: 3%;
+color: white;
+}
+
+.row.mission-statement{
+text-align: center;
+font-weight: 600;
+font-style: italic;
+background-color: #E0E8E2;
+padding: 4%;
+}
+
+.col.section-header{
+    padding-top:8%;
+}

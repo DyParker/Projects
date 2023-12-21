@@ -1,0 +1,91 @@
+form #signin {border: 3px solid whitesmoke;}
+
+.here, .forgotpass{color: blue;}
+.here:hover, .forgotpass:hover{color: #284026}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background: #284026;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.signin_container {
+    padding: 16px;
+}
+
+span.psw {
+    display:block;
+    float: right;
+    padding-top: 0px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+#section2 .row{
+    height: 30%;
+}
+  
+#section2 .row.donor {
+    padding-top: 1%;
+}
+  
+#section2 .row.shelter {
+    padding-top: 1%;
+}
+  
+#section2 .col{
+    padding: 2%;
+    text-align: center;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+  
+#section2 .row.donor .col{
+    background-color: #AACDDF;
+}
+  
+#section2 .row.volunteer .col{
+    background-color: #587F97;
+}
+  
+#section2 .row.shelter .col{
+    background-color: #AADFDB;
+}

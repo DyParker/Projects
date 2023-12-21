@@ -1,0 +1,25 @@
+/* ----------------------------------- RESTAURANT DASHBOARD ---------------------------------------------- */
+
+.restaurant-cards{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .restaurant-cards .col{
+    padding: 1%;
+  }
+  
+  .restaurant-cards i{
+    text-align: center;
+    font-size: 8vh;
+  }
+  
+  .restaurant-cards  h5{
+    text-align:  center;
+    font-weight: 2%;
+  }
+  
+  .restaurant-cards .pane a{
+    text-decoration: none;
+    color: black;
+  }

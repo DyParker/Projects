@@ -1,0 +1,126 @@
+/* ----------------------------------- VOLUNTEER DASHBOARD ---------------------------------------------- */
+/*
+.map-container-2{
+    height: 70vh;
+  }
+  
+  .map-container-2 iframe{
+  
+    width: 100%;
+    height: 100%;
+  }
+  
+  .volunteer-cards{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .volunteer-cards .col{
+    padding: 2%;
+  }
+  
+  .volunteer-cards i{
+    text-align: center;
+    font-size: 8vh;
+  }
+  
+  .volunteer-cards .buttons i{
+    text-align: center;
+    font-size: 4vh;
+  }
+  
+  .volunteer-cards  h5{
+    text-align:  center;
+    font-weight: 2%;
+  }
+  
+  .volunteer-cards .pane a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .volunteer-cards .pane p{
+    color: grey;
+  }
+  
+  .col.buttons{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .col.buttons button{
+    text-decoration: none;
+    margin:2%;
+    border: none;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  .col.buttons .viewmap{
+    background-color: #8A96BF;
+  }
+  
+  .col.buttons .accept{
+    background-color: #87B692;
+  }
+  
+  .col.buttons .reject{
+    background-color: #AC6B58;
+  }
+  
+  .col.buttons .startchat{
+    text-decoration: none;
+    color: black;
+  }
+*/
+.profile-info{
+    background-color: #f4f5f7;
+  }
+  
+  .profile-info .backarrow i{
+    padding: 1%;
+    background-color: #D5D6DA;
+    border-top-left-radius: 1rem; 
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+    border-bottom-right-radius: 1rem;
+    align-self: left;
+  }
+  
+  
+  .profile-info .backarrow i:hover{
+    border: 1px solid #888;
+    background-color: #ddd;
+  }
+  
+  .profile-info .backarrow a{
+    text-decoration: none;
+    color: black;
+    border: none;
+    background-color: none;
+    background: none;
+    display: flex;
+    justify-content: left;
+  }
+  
+  
+  .profile-card{
+    border-radius: .5rem;
+  }
+  
+  .profile-pic{
+    border-top-left-radius: .5rem; 
+    border-bottom-left-radius: .5rem;
+  }
+  
+  .profile-pic img{
+    width: 80px;
+  }
+  
+  .profile-info p{
+    font-size: 2.5vh;
+    color: grey;
+  }
+  
